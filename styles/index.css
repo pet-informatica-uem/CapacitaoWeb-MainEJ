@@ -7,7 +7,7 @@
 
 body {
   background: #474747;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", "Courier New", Courier, monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -105,7 +105,6 @@ nav ul li a {
 
 .Logos p {
   font-size: 50px;
-  font-family: "Montserrat";
 }
 
 .Text {
@@ -114,7 +113,6 @@ nav ul li a {
   flex-direction: column;
   align-items: start;
   gap: 15px;
-  font-family: "Montserrat";
 }
 
 .BemVindo {
@@ -134,9 +132,63 @@ nav ul li a {
   justify-content: center;
   width: 50%;
   height: 100%;
-  gap: 30px;
+  gap: 26px;
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
+}
+
+
+.LoginComponent p {
+  font-size: 40px;
+}
+
+.LoginComponent .Input:focus{
+
+  outline: 3px solid #8d59c3;
+
+}
+
+.LoginComponent .Input{
+  font-size: 24px;
+  color: #000000;
+  color: rgba(0, 0, 0, 0.4); 
+  background-color: #efefef;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 24px;
+  padding-left: 40px;
+  padding-right: 50px;
+  border: none;
+}
+
+.LoginComponent .Cadastro{
+  font-size: 16px;
+}
+
+.LoginComponent .Cadastro span {
+  color: #8d59c3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.LoginComponent .Button {
+  border: #8d59c3 solid 5px;
+  border-color: #8d59c3;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 10px 143px;
+}
+
+.LoginComponent .Button:hover {
+  background-color: #8d59c3;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.LoginComponent .Button p {
+  font-size: 23px;
 }
 
 /* Footer */
